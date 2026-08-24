@@ -1,5 +1,8 @@
 # DW AL Student Results Analysis
 
+**Student Name:** W.A.P Buddhini  
+**Student Number:** GAHDSE252F-013
+
 This repository contains an exploratory data analysis on the AL Student results dataset.
 
 ## Notebooks
