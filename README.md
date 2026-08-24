@@ -60,14 +60,15 @@ pip install pandas sweetviz notebook
 
 > **Note:** Ensure you update the `csv_path` variable in the notebook to accurately point to your local dataset location before execution.
 
-## 📈 Advanced Data Filtering & Querying
+## ☁️ Advanced Data Filtering & Querying (Google Colab)
 
-The latest updates to the analysis notebook include advanced data manipulation techniques to extract specific insights:
+The latest data manipulation steps and advanced filtering were executed using **Google Colab**. The key insights extracted from the dataset include:
 
-- **Data Cleaning:** Automatically drops duplicate rows and null values to ensure dataset integrity.
-- **District Rank Analysis:** Extracts numeric ranks and filters top-performing students (e.g., District Rank < 500, District 1st Rank).
-- **Top Performers (3 'A's):** Identifies students who achieved 'A' grades in all three primary subjects.
-- **Stream & Z-Score Filtering:** Queries high-performing students specifically in the `SCIENCE` stream with a `Z-score > 2.0`.
+- **Data Cleaning:** Automatically dropped duplicate rows and null values to ensure dataset integrity (Final cleaned dataset size: 70,470 records).
+- **District Rank Analysis:** Extracted numeric ranks and filtered top-performing students (e.g., 70,649 students with a District Rank < 500).
+- **Top Performers (3 'A's):** Identified 7,279 students who achieved 'A' grades in all three primary subjects.
+- **District 1st Rank:** Filtered and identified 267 students who secured the 1st rank in their respective districts.
+- **Stream & Z-Score Filtering:** Queried high-performing students specifically in the `SCIENCE` stream with a `Z-score > 2.0`.
 
 ## 📸 Output Preview
 
