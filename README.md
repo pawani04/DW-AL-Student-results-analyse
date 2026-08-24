@@ -60,6 +60,15 @@ pip install pandas sweetviz notebook
 
 > **Note:** Ensure you update the `csv_path` variable in the notebook to accurately point to your local dataset location before execution.
 
+## 📈 Advanced Data Filtering & Querying
+
+The latest updates to the analysis notebook include advanced data manipulation techniques to extract specific insights:
+
+- **Data Cleaning:** Automatically drops duplicate rows and null values to ensure dataset integrity.
+- **District Rank Analysis:** Extracts numeric ranks and filters top-performing students (e.g., District Rank < 500, District 1st Rank).
+- **Top Performers (3 'A's):** Identifies students who achieved 'A' grades in all three primary subjects.
+- **Stream & Z-Score Filtering:** Queries high-performing students specifically in the `SCIENCE` stream with a `Z-score > 2.0`.
+
 ## 📸 Output Preview
 
 Below is a snapshot demonstrating the output from the basic statistical analysis phase:
